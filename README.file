@@ -1,0 +1,29 @@
+This C program is a simple vehicle management system that helps in parking and departing vehicles in a simulated parking lot environment. It uses a console interface to interact with users and manages the parking slots for cars and scooters.
+
+Features
+1. Arrival of Vehicle: Allows users to add vehicles (cars or scooters) to the parking lot.
+2. Departure of Vehicle: Enables the departure of a vehicle by entering its type and number.
+3. Display Vehicles Parked: Shows the current status of vehicles parked in the lot.
+4. Total Number of Vehicles Parked: Provides counts for the total number of vehicles, cars, and scooters parked.
+
+INSTRUCTIONS
+ Running the Program
+1. Compile the source code using a C compiler (e.g., gcc).
+2. Execute the compiled program in the command line.
+
+Usage
+1. Upon execution, the program presents a menu to perform various operations.
+2. Choose an option by entering the corresponding number.
+3. Follow the prompts to input vehicle type, number, etc., for adding or departing vehicles.
+4. Use the option to display the current status of the parking lot.
+
+Code Structure
+1. The code uses a 2D array to represent the parking slots.
+2. It employs functions to add vehicles, find available slots, and manage departures efficiently.
+3. Login functionality is included to secure access to system operations.
+
+How to Use
+Clone this repository.
+Compile the vehicle_management.c file using a C compiler.
+Run the compiled executable in the terminal/command prompt.
+Follow the on-screen instructions to perform parking and departure operations.
